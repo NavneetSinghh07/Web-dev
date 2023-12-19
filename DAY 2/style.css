@@ -20,7 +20,7 @@ h1{
     border: 2px solid black;
     /* border-top-right-radius: 25px;
     border-top-left-radius: 25px; */
-    border-radius: 10px;
+    border-radius: 10px;  /* Using percent inplace of px and adjusting height we can make the border in circle shape */
     padding: 2px 240px 3px;
     margin-bottom: 10px;
 }
