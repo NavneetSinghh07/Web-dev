@@ -24,6 +24,8 @@
 
 // console.log(g);
 
+// Some questions
+
 
 numbers = [1,2,3,4,5,6];
 
