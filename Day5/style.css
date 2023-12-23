@@ -1,0 +1,25 @@
+/* .box{
+    border: 2px solid black;
+    padding: 5px 210px 5px;
+    margin: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+    height: 300px;
+    width: 10px;
+    margin-left: 200px;
+
+}
+
+#imp{
+    border: 10px solid grey;
+} */
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    
+}
