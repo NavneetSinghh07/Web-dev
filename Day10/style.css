@@ -1,0 +1,65 @@
+/* @media print{
+    body{
+        background-color: grey;
+        color: black;
+    }
+}
+
+body{
+    font-size: 1.5rem;
+}
+
+@media screen and (orientation: portrait){
+    body::after{
+        content: "Portrait";
+    }
+}
+
+@media screen and (orientation: landscape){
+    body::after{
+        content: "Landscape";
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 500px){
+    body{
+        background-color: lightblue;
+    }
+}
+
+@media (min-width: 800px){
+    body{
+        background-color: green;
+    }
+} */
+
+@media screen and (orientation: Portrait){
+    body::after{
+        content: "Portrait";
+        color: black;
+    }
+}
+
+@media screen and (orientation: landscape){
+    body::after{
+        content: "landscape";
+    }
+}
+
+@media (max-width: 500px){
+    body{
+        background-color: rebeccapurple;
+    }
+}
+
+@media (min-width: 800px){
+    body{
+        background-color: pink;
+        font-size: 2rem;
+    }
+}
+
+
+
+/* types: print, screen, all */
