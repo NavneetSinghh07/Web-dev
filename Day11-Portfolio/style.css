@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+}
+
+/* body{
+    margin: 0;
+} */
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Header styling  */
+
+header{
+    padding: 16px;
+    background-color: grey;
+    text-align: end;
+    position: sticky;
+    top: 0;
+    /* width: 1350px; */
+    border-bottom: 4px solid white;
+}
+
+header nav > a{
+    margin-right: 16px;
+    color: white;
+    text-decoration: none;
+
+}
+
+header nav > a:last-child{
+    margin-right: revert;
+
+}
+
+header nav > a:hover{
+    font-weight: bold;
+    color: aqua;
+    text-decoration: underline;
+}
+
+/* header nav > a:visited{
+    color: darkslategrey;
+} */
+
+#top{
+    /* border: 60px solid rgb(53, 43, 43); */
+    background-color: black; 
+    color:  white;
+    
+}
+
+
+
+.in{
+    border-radius: 30px;
+    height: 300px;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* align-items: center; */
+    margin-left: 515px;
+    
+}
+
+#content{
+    text-align: center;
+    margin-right: 15px ;
+}
+
+#link{
+    display: flex;
+    margin-left: 590px;
+    margin-top: 20px;
+}
+
+.imp{
+    padding-right: 20px;
+}
+
+/* ABOUT PART  */
+
+
+.data{
+    text-align: center;
+}
+
+.last{
+    padding-top: 30px;
+    padding-left: 560px;
+}
+
+.dynamic-text-color{
+    color: royalblue;
+}
+
+/* FORM  */
+
+form#contact{
+    max-width: 400px;
+    margin: auto;
+    padding: 16px;
+    border: 1px solid;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+#contact label{
+    display: block;
+    font-weight: 600;
+}
+
+#contact input,#contact textarea, #contact button{
+    width: 100%;
+
+}
+
+/* Footer section  */
+
+footer{
+    padding: 16px;
+    text-align: center;
+    border-top: 2px solid black;
+    font-weight: 600;
+}
+
+/* FOR MOBILE  */
+
+.mobile_nav, section.menu{
+    display: none;
+}
+nav a{
+    text-decoration: none;
+}
+
+nav ul > li > a:hover{
+    text-decoration: underline;
+    font-weight: 800;
+    color: darkgreen;
+}
+
+
+@media (width<500px){
+    .default_nav{
+        display: none;
+    }
+
+    .mobile_nav{
+        display: revert;
+    }
+
+    section.menu{
+        display: revert;
+        height: 0;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        background: white;
+
+    }
+
+    nav ul > li{
+        list-style: none;
+        font-size: 2rem;
+        margin-bottom: 60px;
+        padding-top: 20px;
+    }
+
+    #closeMenu{
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        background: transparent;
+        font-size: x-large;
+        border: none;
+    }
+
+    #menu_button{
+        display: block;
+        background: transparent;
+        border-radius: 8px;
+        margin-left: auto;
+    }
+
+    .in{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #link{
+        margin-left: 35%;
+
+    }
+    
+}
+
+@media ((width>500px)){
+    .in{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    #link{
+        margin-left: 39%;
+
+    }
+}
+
+@media (width>=800px){
+    .in{
+        height: 300px;
+        width: 350px;
+        margin-left: 28%;
+    }
+
+    #link{
+        margin-left: 42%;
+
+    }
+}
+
+@media (width>=1000px){
+    .in{
+        height: 300px;
+        width: 350px;
+        margin-left: 37%;
+    }
+
+    #link{
+        margin-left: 45%;
+
+    }
+}
+
+/* @media (width<=500px){
+    .in{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #link{
+        margin-left: 120px;
+    }
+} */

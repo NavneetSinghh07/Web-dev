@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navneet Singh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="menu">
+            <button id="closeMenu">&times;</button>
+            <nav>
+                <ul>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#qualification">Qualifications</a></li>
+                    <li><a href="#Hobbies">Hobbies</a></li>
+                    <li><a href="#technology">Technology</a></li>
+                </ul>
+            </nav>
+        </section>
+        <header>
+            <nav class="default_nav">
+                <a href="#about">About me</a>
+                <a href="#qualification">Qualifications</a>
+                <a href="#Hobbies">Hobbies</a>
+                <a href="#technology">Technology</a>
+            </nav>
+
+            <!-- FOR MOBILE RESOLUTION -->
+
+            <nav class="mobile_nav">
+                <Button id="menu_button">Menu</Button>
+            </nav>
+
+        </header>
+        <article id="top">
+            <img id="image" class="in" height="300px" src="./assests/WhatsApp Image 2023-12-18 at 18.09.55 (1).jpeg" alt="">
+            <div id="content">
+                <h1>Hi, I'm Navneet</h1>
+                <p>I'm a
+                    <span id="dynamic-text" class="dynamic-text-color">
+                    Student
+                    </span>
+                </p>
+            </div>
+            <section id="link">
+                <a class="imp" href="https://www.instagram.com/_navneetsingh07/"
+                target="blank"> <img height="30px" src="./assests/Insta.jpg"
+                alt="Insta">
+                </a>
+                <a class="imp" href="https://www.linkedin.com/in/-navneet-singh/"
+                target="blank"> <img height="30px" src="./assests/linkedln.png" 
+                alt="linkedln">
+                </a>
+                <a class="imp" href="https://github.com/NavneetSinghh07" 
+                target="blank"> <img height="30px" src="./assests/github.jpg" 
+                alt="github">
+                </a>
+
+            </section>
+        </article>
+
+        <article id="about">
+            <h2 class="data" id="about">About me</h2>
+            <div id="bio">
+                <p>I'm a self-motivated and enthusiastic web 
+                    develepor who is currently building his foundation in 
+                    the world of web development.
+                </p>
+                <p>In 2022 I've joined LPU to pursue my backelors.</p>
+                <p>In my first year, I joined a student org (CodingBlocks LPU)
+                    in which I've worked alot and gained strong leadership,
+                    Public speaking and marketting skills.
+                </p>
+                <p>Through this portfolio I'm trying to show my knowledge 
+                    and experienced that I've gained so far in my journey.</p>
+            </div>
+            <h2 class="data" id="qualification">Qualifications</h2>
+            <div>
+                <ol>
+                <li>Btech CSE</li>
+                <LI>Schooling from APS</LI>
+                </ol>
+            </div>
+            <H2 class="data" id="Hobbies">Hobbies</H2>
+            <ul>
+                <li>Listening music</li>
+                <li>Public Speaking</li>
+                <li>Content Writing</li>
+            </ul>
+
+            <h2 class="data" id="technology">Technologies to learn</h2>
+            <table>
+                <tr>
+                    <th>Frontend</th>
+                    <th>Backend</th>
+                    <th>Database</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>NodeJS</td>
+                    <td>MySQL</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Rails</td>
+                    <td>Mongo DB</td>
+                </tr>
+                <tr>
+                    <td>JS</td>
+                    <td>Asp.NET</td>
+                    <td>Postgres</td>
+                </tr>
+            </table>
+        </article>
+        <div id="contact-me">
+            <form name="contact" method="post" id="contact" data-netlify="true">
+                <h1 class="data">Contact Me</h1>
+                <div>
+                    <label for="firstname">First name</label>
+                    <input type="text" name="firstname" id="firstname">
+                </div>
+                <div>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lastname">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+
+            </form>
+
+        </div>
+
+        <footer id="last">
+            <p>Made by Navneet Singh</p>
+        </footer>
+    </main>
+
+    <script src="./main.js"></script>
+    <script src="./menu.js"></script>
+</body>
+    
