@@ -1,0 +1,38 @@
+/* transformproperty */
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: royalblue;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+}
+
+.box:hover{
+    transform: rotate(45deg);
+    /* transform: scale(2);  */
+    transform: translateX(10px);
+    transform: skew(10deg);
+}
+
+/* transition property */
+
+.box2{
+    height: 300px;
+    width: 300px;
+    background-color: royalblue;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    transition-property: transform;
+    transition-duration: 0.1s;
+    /* transition-delay: 400ms; */
+    transition-timing-function: ease-in;
+    
+}
+
+.box2:hover{
+    transform: scale(1.5);
+}
