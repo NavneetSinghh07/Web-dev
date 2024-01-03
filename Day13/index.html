@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .box{
+            height: 300px;
+            width: 100px;
+            background-color: black;
+            margin: 10px;
+            
+        }
+        .box.second{
+            /* flex-basis: 600px; */
+            flex-grow: 2;
+        }
+        .container{
+            display: flex;
+            height: 100vh;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <!-- <h1>Intro to CSS variables</h1> -->
+    <main class="container">
+        <section class="box"></section>
+        <section class="box second"></section>
+        <section class="box"></section>
+        <!-- <section class="box"></section> -->
+    </main>
+</body>
+</html>

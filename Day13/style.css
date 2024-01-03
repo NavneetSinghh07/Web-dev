@@ -1,0 +1,44 @@
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color: royalblue;
+    animation: rotation 0.8s 3 alternate;
+} 
+
+@keyframes rotation{
+    0%{
+        transform: rotate(0);
+    }
+    25%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    75%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* Custom Property  */
+:root{
+    --backgroud-color: lightgreen;
+    --text-color: white;
+}
+
+body{
+    background-color: var(--backgroud-color);
+    color: var(--text-color);
+}
+
+@media (prefers-color-scheme: dark){
+    body{
+        --background-color: black;
+        --text-color: white;
+    }
+}
+
+/* ABOUT FLEX  */
