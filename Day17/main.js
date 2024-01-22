@@ -26,6 +26,7 @@ console.log(somevariable);
 
 var myName = 'NAVNEET'; //Global var
 
+
 function printName(){
     console.log(myName);
     printAnotherName();
