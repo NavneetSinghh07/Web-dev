@@ -19,6 +19,7 @@ function callMe(fn){
     fn();
 }
 
+
 function printText(){
     console.log("hello");
 }
