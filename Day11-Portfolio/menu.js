@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function(){
         for(let menuItem of menuItems){
             menuItem.addEventListener("click", closeMenu)
         }
+
     }
 
     addClickToMenuItems();
