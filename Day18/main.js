@@ -14,10 +14,12 @@ document.addEventListener("click", function(){
     console.log("THIS function gets call back when event occurs");
 })
 
+
 function callMe(fn){
     console.log("I'm done");
     fn();
 }
+
 
 function printText(){
     console.log("hello");
