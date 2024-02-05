@@ -13,6 +13,7 @@ person.prototype.printName = function(){
     return this.firstname + " " + this.lastname;
 }
 
+
 console.log(jane.printName());
 console.log(pradeep.printName());
 
