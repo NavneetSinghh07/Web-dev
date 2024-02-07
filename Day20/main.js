@@ -46,15 +46,69 @@ console.log(`Coming from destructive array ${apple}, ${KIWI}`);
 let{firstName: givenName } = anotherPerson;
 console.log("alliased as name ", givenName);
 
-// rest operator 
+// rest operator - it can be used to print the specific value
+// It find that keyword in the object or array passed
 
-const {firstName : name, ...remaining} = anotherPerson;
-console.log(name, remaining);
 
-const{ app, ...rem} = fruits;
-console.log(app, rem);
+// const {firstName : name, ...remaining} = anotherPerson;
+// console.log(name, remaining);
+
+// const{ app, ...rem} = fruits;
+// console.log(app, rem);
+
+const {firstName: namee, ...remaining} = anotherPerson;
+console.log(namee, remaining);
+
+const{firstNamee} = anotherPerson;
+console.log(firstName);
 
 // spread operator;
+
+const anotherList = ["Strawberry", "Cherry"];
+const moreFruits = [...fruits, anotherList];
+console.log(moreFruits);
+// console.log(anotherPerson);
+
+console.log({...anotherPerson.address, country: "India"});
+
+// arrow functions
+
+function sum(firstNum, secondNum){
+    return firstNum + secondNum;
+}
+
+let sumArrow = (firstNum, secondNum) => firstNum + secondNum;
+
+let diffArrow = (f1, f2) => {
+    let result;
+    if(f2>f1){
+        result = f2- f1;
+    }
+    else{
+        result = 0;
+    }
+    return result;
+}
+
+// optional chaining
+let personn = {
+    firstName: "J", lastName: "Singh"
+};
+
+// if(personn?.personn.lastName){
+//     console.log(personn.lastName);
+// }
+
+// nullish coalescing variable
+
+let agee = person.age ?? 20;
+console.log(agee);
+
+
+
+
+
+
 
 
 
