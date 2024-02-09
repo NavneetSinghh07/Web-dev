@@ -18,6 +18,7 @@ let person = {
 };
 
 
+
 console.log(person);
 
 //DESTRUCTING objects
