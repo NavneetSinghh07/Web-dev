@@ -20,6 +20,7 @@ let promise = new Promise((resolve, reject)=>{
     }, 2000)
 });
 
+
 promise.then((number)=>{
     if(number == 20){
         console.log("Number is 20")
