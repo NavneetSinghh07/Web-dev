@@ -1,22 +1,4 @@
-// document.addEventListener("DOMContentLoaded", function(){
-//     let a = {};
-//     a.name = "Navneet Singh";
-//     a.number = 1234;
-//     a.section = "K22AM";
-//     console.log(`Student with name ${a.name} and number ${a.number} is studying in section ${a.section}`);
 
-//     let stuprototype= {}
-//     let student = Object.create(stuprototype);
-//     student.name = "Navneet Singh";
-//     console.log(student.name);
-//     console.log(stuprototype);
-//     function child(name,number,section)
-//     {
-//         this.name=
-//         this.number = 12345;
-//         this.section = "K22AM";
-//     }
-// })
 
 const getColor = () => {
     //hex codes
