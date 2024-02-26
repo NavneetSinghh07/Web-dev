@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function(){
         menu.style.height="100%";
         menu.style.width="100%";}
 
+
     function closeMenu(){
         const menu= document.querySelector("section.menu")
         menu.style.height="0";
