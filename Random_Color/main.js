@@ -10,6 +10,7 @@ const getColor = () => {
     document.body.style.backgroundColor = randomCode;
 
 
+
     // printing color code on ui
     document.getElementById("color-code").innerText=randomCode;
     document.getElementById("color-code").style.color=randomCode;
