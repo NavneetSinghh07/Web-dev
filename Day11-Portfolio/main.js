@@ -1,3 +1,4 @@
+
 const dynamicContent = document.getElementById("dynamic-text");
 console.log(dynamicContent);
 
