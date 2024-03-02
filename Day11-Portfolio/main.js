@@ -6,6 +6,7 @@ let statement = "Web Developer...";
 
 let index = 0;
 
+
 const typeWriter = function(){
     let new_title = statement.slice(0,index);
 
