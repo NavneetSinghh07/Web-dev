@@ -16,7 +16,13 @@
 //         this.number = 12345;
 //         this.section = "K22AM";
 //     }
+
+//     function myFunction(){
+//         const message = document.getElementById("demo").Value;
+//     }
 // })
+
+
 
 const getColor = () => {
     //hex codes
@@ -33,6 +39,7 @@ const getColor = () => {
 
     navigator.clipboard.writeText(randomCode);
 }
+
 
 //event call
 document.getElementById("btn").addEventListener("click", getColor);
